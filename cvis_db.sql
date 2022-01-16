@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 06, 2022 at 04:15 PM
+-- Generation Time: Jan 16, 2022 at 01:21 PM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 8.0.0
 
@@ -67,7 +67,31 @@ INSERT INTO `activity_log` (`id`, `log_name`, `description`, `subject_type`, `ev
 (18, 'user account', 'User Account have been updated', 'Ilagan, Angelu Merry T.', 'updated', 2, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"name\":\"Ilagan, Angelu Merry T.\",\"email\":\"mamtilagan@tip.edu.ph\",\"password\":\"$2y$10$XTv8MN66D\\/C8ZAhRTmA4oe9eIF1fsoADzxsdzURP4NpIkHYboiII.\"},\"old\":{\"name\":\"Ilagan, Angelu Merry T.\",\"email\":\"mamtilagan@tip.edu.ph\",\"password\":\"$2y$10$r9lwTf9j6vcgljnyVHHC\\/ONCFLspvphpdW6u2BwBuqnqs7wXW\\/rbK\"}}', NULL, '2022-01-06 06:41:40', '2022-01-06 06:41:40'),
 (19, 'user account', 'User Account have been updated', 'Ilagan, Angelu Merry T.', 'updated', 2, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"name\":\"Ilagan, Angelu Merry T.\",\"email\":\"mamtilagan@tip.edu.ph\",\"password\":\"$2y$10$cbdjabjMpEanYu14gxWJAegJk\\/bj3vugjkTds.AOsFFpgVAOCSO0W\"},\"old\":{\"name\":\"Ilagan, Angelu Merry T.\",\"email\":\"mamtilagan@tip.edu.ph\",\"password\":\"$2y$10$XTv8MN66D\\/C8ZAhRTmA4oe9eIF1fsoADzxsdzURP4NpIkHYboiII.\"}}', NULL, '2022-01-06 06:43:13', '2022-01-06 06:43:13'),
 (20, 'user account', 'User Account have been updated', 'Angelu Merry Tomboc Ilagan', 'updated', 1, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"name\":\"Angelu Merry Tomboc Ilagan\",\"email\":\"angelumerry@gmail.com\",\"password\":\"$2y$10$5.CER3yc.sqPEDaU8SEdquffOD6KnJR310PzdWLquFr.ttJr2s\\/qO\"},\"old\":{\"name\":\"Angelu Merry Tomboc Ilagan\",\"email\":\"angelumerry@gmail.com\",\"password\":\"$2y$10$dtbABG0Y5zWcQxpj4SqAc.poxgkCY84ljEQF9m\\/heVpwazEcrrW0K\"}}', NULL, '2022-01-06 06:44:15', '2022-01-06 06:44:15'),
-(21, 'user account', 'User Account have been updated', 'Ilagan, Angelu Merry T.', 'updated', 2, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"name\":\"Ilagan, Angelu Merry T.\",\"email\":\"mamtilagan@tip.edu.ph\",\"password\":\"$2y$10$ysC2zkiujgY6nv8LQyBNxev.3QueNzFBEyxx\\/8y.7KYI4oOXwHTKq\"},\"old\":{\"name\":\"Ilagan, Angelu Merry T.\",\"email\":\"mamtilagan@tip.edu.ph\",\"password\":\"$2y$10$cbdjabjMpEanYu14gxWJAegJk\\/bj3vugjkTds.AOsFFpgVAOCSO0W\"}}', NULL, '2022-01-06 06:45:24', '2022-01-06 06:45:24');
+(21, 'user account', 'User Account have been updated', 'Ilagan, Angelu Merry T.', 'updated', 2, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"name\":\"Ilagan, Angelu Merry T.\",\"email\":\"mamtilagan@tip.edu.ph\",\"password\":\"$2y$10$ysC2zkiujgY6nv8LQyBNxev.3QueNzFBEyxx\\/8y.7KYI4oOXwHTKq\"},\"old\":{\"name\":\"Ilagan, Angelu Merry T.\",\"email\":\"mamtilagan@tip.edu.ph\",\"password\":\"$2y$10$cbdjabjMpEanYu14gxWJAegJk\\/bj3vugjkTds.AOsFFpgVAOCSO0W\"}}', NULL, '2022-01-06 06:45:24', '2022-01-06 06:45:24'),
+(22, 'product', 'Product have been created', 'Pfizer', 'created', 1, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"name\":\"Pfizer\",\"cost_price\":\"1500.00\",\"retail_price\":null}}', NULL, '2022-01-16 03:32:05', '2022-01-16 03:32:05'),
+(23, 'product', 'Product have been created', 'Moderna', 'created', 2, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"name\":\"Moderna\",\"cost_price\":\"1500.00\",\"retail_price\":null}}', NULL, '2022-01-16 04:11:07', '2022-01-16 04:11:07'),
+(24, 'product', 'Product have been created', 'Face Mask', 'created', 3, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"name\":\"Face Mask\",\"cost_price\":\"0.00\",\"retail_price\":null}}', NULL, '2022-01-16 04:12:39', '2022-01-16 04:12:39'),
+(25, 'user account', 'User Account have been updated', 'Angelou Ilagan', 'updated', 10, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"name\":\"Angelou Ilagan\",\"email\":\"n2012242@dlszobel.edu.ph\",\"password\":\"$2y$10$bTC8qjZtyw6v3NW8NTOco.rF5HJoe1bwxOSYONrdg15NuP8fWlZ4O\"},\"old\":{\"name\":\"Angelou Ilagan\",\"email\":\"n2012242@dlszobel.edu.ph\",\"password\":\"$2y$10$H7COPBWnZTb1ZNuzekwZ1u54pANpNgyxlQz29pciP8Hn.xTm5KXpW\"}}', NULL, '2022-01-16 04:16:09', '2022-01-16 04:16:09'),
+(26, 'user account', 'User Account have been updated', 'Ilagan, Angelu Merry T.', 'updated', 2, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"name\":\"Ilagan, Angelu Merry T.\",\"email\":\"mamtilagan@tip.edu.ph\",\"password\":\"$2y$10$nSwhTiKmu8iEv1BPffrlMu5ZgCO0C5BV.dioi24KEcDy.txQg1pYu\"},\"old\":{\"name\":\"Ilagan, Angelu Merry T.\",\"email\":\"mamtilagan@tip.edu.ph\",\"password\":\"$2y$10$ysC2zkiujgY6nv8LQyBNxev.3QueNzFBEyxx\\/8y.7KYI4oOXwHTKq\"}}', NULL, '2022-01-16 04:16:22', '2022-01-16 04:16:22'),
+(27, 'user account', 'User Account have been updated', 'Angelu Merry Tomboc Ilagan', 'updated', 1, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"name\":\"Angelu Merry Tomboc Ilagan\",\"email\":\"angelumerry@gmail.com\",\"password\":\"$2y$10$sxotg6es8oK08k7IIqsfBuyms.mU3Q9eP7orJma2ydaE20yA\\/Pvjq\"},\"old\":{\"name\":\"Angelu Merry Tomboc Ilagan\",\"email\":\"angelumerry@gmail.com\",\"password\":\"$2y$10$5.CER3yc.sqPEDaU8SEdquffOD6KnJR310PzdWLquFr.ttJr2s\\/qO\"}}', NULL, '2022-01-16 04:16:33', '2022-01-16 04:16:33'),
+(28, 'product_stock', 'A new stock have been created', '3', 'created', 1, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"product_id\":3,\"size_id\":4,\"quantity\":20}}', NULL, '2022-01-16 04:17:12', '2022-01-16 04:17:12'),
+(29, 'product_stock', 'A new stock have been created', '3', 'created', 2, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"product_id\":3,\"size_id\":5,\"quantity\":20}}', NULL, '2022-01-16 04:17:13', '2022-01-16 04:17:13'),
+(30, 'dispatched_product', 'Dispatched Product have been created', '2', 'created', 1, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"product_id\":2,\"size_id\":6}}', NULL, '2022-01-16 04:17:44', '2022-01-16 04:17:44'),
+(31, 'dispatched_product', 'Dispatched Product have been created', '2', 'created', 2, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"product_id\":2,\"size_id\":7}}', NULL, '2022-01-16 04:17:44', '2022-01-16 04:17:44'),
+(32, 'dispatched_product', 'Dispatched Product have been created', '2', 'created', 3, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"product_id\":2,\"size_id\":8}}', NULL, '2022-01-16 04:17:44', '2022-01-16 04:17:44'),
+(33, 'dispatched_product', 'Dispatched Product have been created', '2', 'created', 4, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"product_id\":2,\"size_id\":9}}', NULL, '2022-01-16 04:17:44', '2022-01-16 04:17:44'),
+(34, 'dispatched_product', 'Dispatched Product have been created', '1', 'created', 5, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"product_id\":1,\"size_id\":6}}', NULL, '2022-01-16 04:18:07', '2022-01-16 04:18:07'),
+(35, 'dispatched_product', 'Dispatched Product have been created', '1', 'created', 6, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"product_id\":1,\"size_id\":7}}', NULL, '2022-01-16 04:18:08', '2022-01-16 04:18:08'),
+(36, 'dispatched_product', 'Dispatched Product have been created', '1', 'created', 7, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"product_id\":1,\"size_id\":8}}', NULL, '2022-01-16 04:18:08', '2022-01-16 04:18:08'),
+(37, 'dispatched_product', 'Dispatched Product have been created', '1', 'created', 8, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"product_id\":1,\"size_id\":9}}', NULL, '2022-01-16 04:18:08', '2022-01-16 04:18:08'),
+(38, 'dispatched_product', 'Dispatched Product have been created', '3', 'created', 9, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"product_id\":3,\"size_id\":4}}', NULL, '2022-01-16 04:18:25', '2022-01-16 04:18:25'),
+(39, 'dispatched_product', 'Dispatched Product have been created', '3', 'created', 10, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"product_id\":3,\"size_id\":5}}', NULL, '2022-01-16 04:18:25', '2022-01-16 04:18:25'),
+(40, 'return_product', 'Return Product have been created', '3', 'created', 1, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"product_id\":3,\"size_id\":4}}', NULL, '2022-01-16 04:18:46', '2022-01-16 04:18:46'),
+(41, 'return_product', 'Return Product have been created', '3', 'created', 2, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"product_id\":3,\"size_id\":5}}', NULL, '2022-01-16 04:18:46', '2022-01-16 04:18:46'),
+(42, 'product_stock', 'A new stock have been created', '2', 'created', 3, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"product_id\":2,\"size_id\":6,\"quantity\":5}}', NULL, '2022-01-16 04:19:08', '2022-01-16 04:19:08'),
+(43, 'product_stock', 'A new stock have been created', '2', 'created', 4, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"product_id\":2,\"size_id\":7,\"quantity\":10}}', NULL, '2022-01-16 04:19:08', '2022-01-16 04:19:08'),
+(44, 'product_stock', 'A new stock have been created', '2', 'created', 5, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"product_id\":2,\"size_id\":8,\"quantity\":10}}', NULL, '2022-01-16 04:19:08', '2022-01-16 04:19:08'),
+(45, 'product_stock', 'A new stock have been created', '2', 'created', 6, 'Angelu Merry Tomboc Ilagan', 1, '{\"attributes\":{\"product_id\":2,\"size_id\":9,\"quantity\":5}}', NULL, '2022-01-16 04:19:08', '2022-01-16 04:19:08');
 
 -- --------------------------------------------------------
 
@@ -82,6 +106,16 @@ CREATE TABLE `brands` (
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Dumping data for table `brands`
+--
+
+INSERT INTO `brands` (`id`, `name`, `created_at`, `updated_at`) VALUES
+(1, 'Moderna', '2022-01-16 03:23:08', '2022-01-16 03:23:08'),
+(2, 'Sinovac', '2022-01-16 03:23:14', '2022-01-16 03:23:14'),
+(3, 'Pfizer', '2022-01-16 03:23:18', '2022-01-16 03:23:18'),
+(4, 'Department of Health', '2022-01-16 03:23:46', '2022-01-16 03:23:46');
+
 -- --------------------------------------------------------
 
 --
@@ -94,6 +128,14 @@ CREATE TABLE `categories` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `categories`
+--
+
+INSERT INTO `categories` (`id`, `name`, `created_at`, `updated_at`) VALUES
+(1, 'Vaccine', '2022-01-16 03:22:58', '2022-01-16 03:22:58'),
+(2, 'Face Mask', '2022-01-16 03:23:33', '2022-01-16 03:23:33');
 
 -- --------------------------------------------------------
 
@@ -201,6 +243,15 @@ CREATE TABLE `products` (
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Dumping data for table `products`
+--
+
+INSERT INTO `products` (`id`, `user_id`, `category_id`, `brand_id`, `name`, `sku`, `image`, `cost_price`, `expiration_date`, `year`, `description`, `status`, `created_at`, `updated_at`) VALUES
+(1, 1, 1, 3, 'Pfizer', 'VP01162022', 'i2f8et2qLlH1seFfOvvpo5yhsp5NIlu3qRl1SnhDpdhyzrV05qefKTbdwwYo.jpeg', '1500.00', '2023-01-16', '2022', 'The Pfizer–BioNTech COVID-19 vaccine is used to provide protection against COVID-19.', 1, '2022-01-16 03:32:04', '2022-01-16 03:32:04'),
+(2, 1, 1, 1, 'Moderna', 'VM01162022', 'BzpSS3gqq9j1iCFrOIbytLWsRbprFMmSs1W5Gfe3MbnK7nxBRjrTgqKkniTP.jpg', '1500.00', '2023-12-01', '2022', 'The Moderna COVID-19 vaccine, codenamed mRNA-1273 and sold under the brand name Spikevax.', 1, '2022-01-16 04:11:07', '2022-01-16 04:11:07'),
+(3, 1, 2, 4, 'Face Mask', 'FDOH01162023', 'rRzurZYoUVLLraqXpHpUz2CxPiCH2Kqh3jtnrImtTl8HcuaNvFxSa2CS1n7e.jpg', '0.00', '2023-12-01', '2022', 'A face mask covers your mouth and nose. It can block the release of virus-filled droplets into the air when you cough or sneeze.', 1, '2022-01-16 04:12:39', '2022-01-16 04:12:39');
+
 -- --------------------------------------------------------
 
 --
@@ -251,6 +302,22 @@ CREATE TABLE `product_size_stocks` (
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Dumping data for table `product_size_stocks`
+--
+
+INSERT INTO `product_size_stocks` (`id`, `product_id`, `size_id`, `location`, `quantity`, `created_at`, `updated_at`) VALUES
+(1, 1, 6, 'MCV', 45, '2022-01-16 03:32:05', '2022-01-16 04:18:07'),
+(2, 1, 7, 'CHV', 40, '2022-01-16 03:32:05', '2022-01-16 04:18:08'),
+(3, 1, 8, 'MCV', 30, '2022-01-16 03:32:05', '2022-01-16 04:18:08'),
+(4, 1, 9, 'CHV', 40, '2022-01-16 03:32:05', '2022-01-16 04:18:08'),
+(5, 2, 6, 'MCV', 45, '2022-01-16 04:11:07', '2022-01-16 04:19:08'),
+(6, 2, 7, 'CHV', 55, '2022-01-16 04:11:07', '2022-01-16 04:19:08'),
+(7, 2, 8, 'MCV', 40, '2022-01-16 04:11:07', '2022-01-16 04:19:08'),
+(8, 2, 9, 'CHV', 30, '2022-01-16 04:11:07', '2022-01-16 04:19:08'),
+(9, 3, 4, 'MCV', 70, '2022-01-16 04:12:39', '2022-01-16 04:18:46'),
+(10, 3, 5, 'CHV', 40, '2022-01-16 04:12:39', '2022-01-16 04:18:46');
+
 -- --------------------------------------------------------
 
 --
@@ -269,6 +336,18 @@ CREATE TABLE `product_stocks` (
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Dumping data for table `product_stocks`
+--
+
+INSERT INTO `product_stocks` (`id`, `product_id`, `size_id`, `quantity`, `date`, `status`, `utype`, `created_at`, `updated_at`) VALUES
+(1, 3, 4, 20, '2022-01-16', 'in', 'ADM', '2022-01-16 04:17:12', '2022-01-16 04:17:12'),
+(2, 3, 5, 20, '2022-01-16', 'in', 'ADM', '2022-01-16 04:17:12', '2022-01-16 04:17:12'),
+(3, 2, 6, 5, '2022-01-16', 'in', 'ADM', '2022-01-16 04:19:08', '2022-01-16 04:19:08'),
+(4, 2, 7, 10, '2022-01-16', 'in', 'ADM', '2022-01-16 04:19:08', '2022-01-16 04:19:08'),
+(5, 2, 8, 10, '2022-01-16', 'in', 'ADM', '2022-01-16 04:19:08', '2022-01-16 04:19:08'),
+(6, 2, 9, 5, '2022-01-16', 'in', 'ADM', '2022-01-16 04:19:08', '2022-01-16 04:19:08');
+
 -- --------------------------------------------------------
 
 --
@@ -285,6 +364,14 @@ CREATE TABLE `return_products` (
   `updated_at` timestamp NULL DEFAULT NULL,
   `utype` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'MCV' COMMENT 'ADM for Admin, MCV for Mobile Center, and CHV for City Hall'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `return_products`
+--
+
+INSERT INTO `return_products` (`id`, `product_id`, `size_id`, `quantity`, `date`, `created_at`, `updated_at`, `utype`) VALUES
+(1, 3, 4, 50, '2022-01-16', '2022-01-16 04:18:45', '2022-01-16 04:18:45', 'ADM'),
+(2, 3, 5, 20, '2022-01-16', '2022-01-16 04:18:46', '2022-01-16 04:18:46', 'ADM');
 
 -- --------------------------------------------------------
 
@@ -306,7 +393,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('0Xt7EgiZjbe7z4BfChQyikS38DptoiePCKdfIp0G', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62', 'YTo3OntzOjM6InVybCI7YTowOnt9czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9kYXNoYm9hcmQiO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX1zOjY6Il90b2tlbiI7czo0MDoiMUVXdjhHdVhJVzBnSXc4UE5xb1I4UmhEZ0R5RFlSOHllbDUzS2E5aSI7czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTtzOjE3OiJwYXNzd29yZF9oYXNoX3dlYiI7czo2MDoiJDJ5JDEwJDUuQ0VSM3ljLnNxUEVEYVU4U0VkcXVmZk9ENktuSlIzMTBQemRXTHF1RnIudHRKcjJzL3FPIjtzOjIxOiJwYXNzd29yZF9oYXNoX3NhbmN0dW0iO3M6NjA6IiQyeSQxMCQ1LkNFUjN5Yy5zcVBFRGFVOFNFZHF1ZmZPRDZLbkpSMzEwUHpkV0xxdUZyLnR0SnIycy9xTyI7fQ==', 1641482081);
+('TjJDCIEAUoGcoMCKfWfXMZ1BeM4vSvmibuVO2fwb', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62', 'YTo3OntzOjM6InVybCI7YTowOnt9czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9kYXNoYm9hcmQiO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX1zOjY6Il90b2tlbiI7czo0MDoiV2hoNzJkQkdwMnNiTWpNS3hJaW9OQ3pHRHZybG83elViZjF3MU1xUyI7czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTtzOjE3OiJwYXNzd29yZF9oYXNoX3dlYiI7czo2MDoiJDJ5JDEwJHN4b3RnNmVzOG9LMDhrN0lJcXNmQnV5bXMubVUzUTllUDdvckptYTJ5ZGFFMjB5QS9QdmpxIjtzOjIxOiJwYXNzd29yZF9oYXNoX3NhbmN0dW0iO3M6NjA6IiQyeSQxMCRzeG90ZzZlczhvSzA4azdJSXFzZkJ1eW1zLm1VM1E5ZVA3b3JKbWEyeWRhRTIweUEvUHZqcSI7fQ==', 1642335572);
 
 -- --------------------------------------------------------
 
@@ -320,6 +407,18 @@ CREATE TABLE `sizes` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `sizes`
+--
+
+INSERT INTO `sizes` (`id`, `size`, `created_at`, `updated_at`) VALUES
+(4, 'MCV - Standard Size', '2022-01-16 03:27:32', '2022-01-16 03:27:32'),
+(5, 'CHV - Standard Size', '2022-01-16 03:27:40', '2022-01-16 03:27:40'),
+(6, 'MCV - 50 mL', '2022-01-16 03:27:53', '2022-01-16 03:27:53'),
+(7, 'CHV - 50 mL', '2022-01-16 03:28:00', '2022-01-16 03:28:00'),
+(8, 'MCV - 100 mL', '2022-01-16 03:28:06', '2022-01-16 03:28:06'),
+(9, 'CHV - 100 mL', '2022-01-16 03:28:12', '2022-01-16 03:28:12');
 
 -- --------------------------------------------------------
 
@@ -337,6 +436,22 @@ CREATE TABLE `sold_products` (
   `updated_at` timestamp NULL DEFAULT NULL,
   `utype` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'MCV' COMMENT 'ADM for Admin, MCV for Mobile Center, and CHV for City Hall'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `sold_products`
+--
+
+INSERT INTO `sold_products` (`id`, `product_id`, `size_id`, `quantity`, `date`, `created_at`, `updated_at`, `utype`) VALUES
+(1, 2, 6, 20, '2022-01-16', '2022-01-16 04:17:44', '2022-01-16 04:17:44', 'ADM'),
+(2, 2, 7, 15, '2022-01-16', '2022-01-16 04:17:44', '2022-01-16 04:17:44', 'ADM'),
+(3, 2, 8, 10, '2022-01-16', '2022-01-16 04:17:44', '2022-01-16 04:17:44', 'ADM'),
+(4, 2, 9, 15, '2022-01-16', '2022-01-16 04:17:44', '2022-01-16 04:17:44', 'ADM'),
+(5, 1, 6, 5, '2022-01-16', '2022-01-16 04:18:07', '2022-01-16 04:18:07', 'ADM'),
+(6, 1, 7, 10, '2022-01-16', '2022-01-16 04:18:07', '2022-01-16 04:18:07', 'ADM'),
+(7, 1, 8, 20, '2022-01-16', '2022-01-16 04:18:08', '2022-01-16 04:18:08', 'ADM'),
+(8, 1, 9, 10, '2022-01-16', '2022-01-16 04:18:08', '2022-01-16 04:18:08', 'ADM'),
+(9, 3, 4, 100, '2022-01-16', '2022-01-16 04:18:24', '2022-01-16 04:18:24', 'ADM'),
+(10, 3, 5, 100, '2022-01-16', '2022-01-16 04:18:25', '2022-01-16 04:18:25', 'ADM');
 
 -- --------------------------------------------------------
 
@@ -366,9 +481,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `utype`, `resume`, `email_verified_at`, `password`, `two_factor_secret`, `two_factor_recovery_codes`, `remember_token`, `current_team_id`, `profile_photo_path`, `created_at`, `updated_at`) VALUES
-(1, 'Angelu Merry Tomboc Ilagan', 'angelumerry@gmail.com', 'ADM', 'axNkD6cXqiR82nsPKEfWXkEMHfbCGNBFvQiEkjt3fyYmFZVVjhueQM4YSNyh.pdf', '2022-01-06 05:18:12', '$2y$10$5.CER3yc.sqPEDaU8SEdquffOD6KnJR310PzdWLquFr.ttJr2s/qO', NULL, NULL, NULL, NULL, NULL, '2022-01-05 21:17:52', '2022-01-06 06:44:15'),
-(2, 'Ilagan, Angelu Merry T.', 'mamtilagan@tip.edu.ph', 'CHV', '2E7lMcnsjz9CMYqFizqljdXMaV2sCHz2DysQ4GGZP2MELIgSy1kNXDmbiCuy.pdf', NULL, '$2y$10$ysC2zkiujgY6nv8LQyBNxev.3QueNzFBEyxx/8y.7KYI4oOXwHTKq', NULL, NULL, NULL, NULL, NULL, '2022-01-05 22:50:43', '2022-01-06 06:45:23'),
-(10, 'Angelou Ilagan', 'n2012242@dlszobel.edu.ph', 'MCV', 'S69oXB0gg70k0by28YMbkiT4hiBobDBDyXMhA00SWjBCYCYz1QbFcaG2sU2c.pdf', NULL, '$2y$10$H7COPBWnZTb1ZNuzekwZ1u54pANpNgyxlQz29pciP8Hn.xTm5KXpW', NULL, NULL, NULL, NULL, NULL, '2022-01-06 06:11:21', '2022-01-06 06:11:21');
+(1, 'Angelu Merry Tomboc Ilagan', 'angelumerry@gmail.com', 'ADM', 'UaNRHfahB7ZM4bD5iprKJ4M8EbZ01LjFRsDPhzXNRvNc0cTEIDwztOX4C6SH.pdf', '2022-01-06 05:18:12', '$2y$10$sxotg6es8oK08k7IIqsfBuyms.mU3Q9eP7orJma2ydaE20yA/Pvjq', NULL, NULL, NULL, NULL, NULL, '2022-01-05 21:17:52', '2022-01-16 04:16:33'),
+(2, 'Ilagan, Angelu Merry T.', 'mamtilagan@tip.edu.ph', 'CHV', 'vpt3W6mSunQwSS3cvgoacxxQIAyejE9EpFZWfbCgyevFRCb7V1qZ4RLM5d6M.pdf', NULL, '$2y$10$nSwhTiKmu8iEv1BPffrlMu5ZgCO0C5BV.dioi24KEcDy.txQg1pYu', NULL, NULL, NULL, NULL, NULL, '2022-01-05 22:50:43', '2022-01-16 04:16:21'),
+(10, 'Angelou Ilagan', 'n2012242@dlszobel.edu.ph', 'MCV', '5HB6jZF4nv0AQswhKT3Yg9OrkYx4zRNFdQ5xYYjcQDNGvYlSb4GYXgotJuSe.pdf', NULL, '$2y$10$bTC8qjZtyw6v3NW8NTOco.rF5HJoe1bwxOSYONrdg15NuP8fWlZ4O', NULL, NULL, NULL, NULL, NULL, '2022-01-06 06:11:21', '2022-01-16 04:16:09');
 
 --
 -- Indexes for dumped tables
@@ -508,19 +623,19 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `activity_log`
 --
 ALTER TABLE `activity_log`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=46;
 
 --
 -- AUTO_INCREMENT for table `brands`
 --
 ALTER TABLE `brands`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `failed_jobs`
@@ -544,7 +659,7 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `product_requests`
@@ -562,31 +677,31 @@ ALTER TABLE `product_size_requests`
 -- AUTO_INCREMENT for table `product_size_stocks`
 --
 ALTER TABLE `product_size_stocks`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `product_stocks`
 --
 ALTER TABLE `product_stocks`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `return_products`
 --
 ALTER TABLE `return_products`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `sizes`
 --
 ALTER TABLE `sizes`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `sold_products`
 --
 ALTER TABLE `sold_products`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `users`
